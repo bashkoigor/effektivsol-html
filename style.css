@@ -36,15 +36,27 @@
 .function-elements > div { display: inline-block; margin-left: 10px;}
 .efv-btn {text-decoration: none; color: white; text-transform: uppercase; border-radius: 25px; display: inline-block;}
 .efv-btn:hover {color: white;}
-.btn-v1 { background: #C6143E; padding: 15px 40px;}
+.btn-v1 { background: #C6143E; padding: 15px 30px;}
 .btn-v2 { background: #1619205E; padding: 15px 40px; border: 2px solid #C6143E;}
 
-.banner {height: 700px; color: white;}
+.banner {color: white; margin-top: 140px;}
 .banner .title {font-size: 50px; line-height: 57px; font-weight: 600; margin-bottom: 25px;}
 .banner .text {font-size: 25px; line-height: 32px; font-weight: 400;}
 .mob-menu-icon {font-size: 30px; color: white; cursor: pointer; display: block;}
 
 @media (max-width: 576px) {
-    .function-elements img {width: 35px;}
-    .function-elements a img {width: 35px;}
+    .mob-opacity {opacity: 0.7}
+    .dropdown-list .dropdown a {color: #FAB600;}
+}
+@media (max-width: 992px) {
+    .function-elements img {width: 40px;}
+    .function-elements a img { width: 40px!important;}
+}
+@media (max-width: 1200px) {
+    .banner .title {font-size: 30px; line-height: 20px;}
+    .function-elements a img { width: 58px;}
+}
+@media (max-width: 1400px) {
+    .banner {margin-top: 80px;}
+    .btn-v1 {padding: 15px 14px;}
 }
