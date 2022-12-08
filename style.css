@@ -1,3 +1,9 @@
+header {
+    background-image: url("img/Header.png");
+    height: 900px;
+    background-repeat:no-repeat;
+    background-position:center;
+}
 .top-menu li {padding: 0 18px;}
 .top-menu li a:hover, .dropdown-list li a:hover {color: #FAB600;}
 .top-menu li a, .dropdown-list li a, .dropdown-list .dropdown div.title {
@@ -37,6 +43,7 @@
 .efv-btn {text-decoration: none; color: white; text-transform: uppercase; border-radius: 25px; display: inline-block;}
 .efv-btn:hover {color: white;}
 .btn-v1 { background: #C6143E; padding: 15px 30px;}
+.btn-v3 { background: #FAB600; padding: 15px 30px;}
 .btn-v2 { background: #1619205E; padding: 15px 40px; border: 2px solid #C6143E;}
 
 .banner {color: white; margin-top: 140px;}
@@ -44,19 +51,59 @@
 .banner .text {font-size: 25px; line-height: 32px; font-weight: 400;}
 .mob-menu-icon {font-size: 30px; color: white; cursor: pointer; display: block;}
 
+.background-v1 {background: linear-gradient(0deg, #EFF0FB 0%, #FFFFFF 74.16%);}
+.background-v2 {background: #FBFDFF;}
+
+.product-carousel .wrapper {
+    background: rgba(255,255,255,0.5400000214576721);
+    width: fit-content;
+    padding: 15px 50px;
+    margin: 0 auto;
+    border-radius: 90px;
+    box-shadow: 0px 54px 55px rgb(0 0 1 / 4%);
+}
+.product-carousel .nav-pills {
+    --bs-nav-pills-border-radius: 90px;
+    --bs-nav-pills-link-active-color: #fff;
+    --bs-nav-pills-link-active-bg: #C6143E;
+}
+.product-carousel .nav-link {
+    color: black; font-size: 20px;
+    border-radius: 90px;
+    color: #000;
+    background: #fff;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 8%);
+}
+.product-carousel .nav-item {padding: 0 10px;}
+.product-carousel .card {border: none;}
+.product-carousel .card-title {font-size: 25px;}
+.product-carousel .card-text {font-size: 17px; color: #455777;}
+.recommended .carousel__slide {width: 25%; padding: 10px;}
+.www {
+    height: 226px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #f1f1f1;
+    border-radius: 8px;
+}
+hr.orange {border: 1px solid #F47820; width: 25%; opacity: 1;}
+
 @media (max-width: 576px) {
+    header {height: 240px!important;}
     .mob-opacity {opacity: 0.7}
     .dropdown-list .dropdown a {color: #FAB600;}
 }
 @media (max-width: 992px) {
     .function-elements img {width: 40px;}
     .function-elements a img { width: 40px!important;}
+    .recommended .carousel__slide {width: 50%;}
 }
 @media (max-width: 1200px) {
-    .banner .title {font-size: 30px; line-height: 20px;}
+    .banner .title {font-size: 30px; line-height: 40px;}
     .function-elements a img { width: 58px;}
 }
 @media (max-width: 1400px) {
+    header {height: 580px;}
     .banner {margin-top: 80px;}
     .btn-v1 {padding: 15px 14px;}
 }
