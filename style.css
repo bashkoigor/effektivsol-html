@@ -76,7 +76,7 @@ header {
 }
 .product-carousel .carousel__button.is-next {right: -20px;}
 .product-carousel .carousel__button.is-prev {left: -20px;}
-.product-carousel .nav-item {padding: 0 10px;}
+.product-carousel .nav-item {padding: 10px;}
 .product-carousel .card {border: none; padding: 10px;}
 .product-carousel .card-title {font-size: 25px;}
 .product-carousel .card-text {font-size: 17px; color: #455777;}
@@ -112,12 +112,32 @@ header {
 .gray-v1 {color: #5F6E81;}
 .gray-v2 {color: #3F3F3F;}
 footer {background: #1A232E; color: white;}
+footer ul {list-style-type: none; padding-left: 0;}
+footer ul li {padding-bottom: 10px;}
+footer .icon-background {color: #344559;}
+footer .icon-size {font-size: 22px;}
+footer a {text-decoration: none; color: white;}
+footer a:hover {color: #F47820;}
+footer .subscribe {background: #1a1b1e; padding: 20px; border-radius: 10px;}
+footer .copyright {font-size: 12px; text-align: center; color: gray; padding: 10px;}
+footer .btn-outline-secondary {background: #C6143E; color: white; border: none;}
+.list-inline li {display: inline-block;}
 hr.orange {border: 1px solid #F47820; width: 25%; opacity: 1;}
+.main p {font-size: 20px;}
+.contact-form-background > div {margin: 0 auto; color: white; padding: 20px; max-width: 950px;}
+.contact-form-background .title {font-size: 40px;}
+.contact-form-background .form-control {padding: 10px; border-radius: 20px; border-left: none; margin-left: -2px!important;}
+.contact-form-background .input-group-text {background-color: white; border-radius: 20px; padding-left: 20px; color: #C6143E;}
 
-@media (max-width: 576px) {
-    header {height: 240px!important;}
-    .mob-opacity {opacity: 0.7}
-    .dropdown-list .dropdown a {color: #FAB600;}
+@media (max-width: 1400px) {
+    header {height: 580px;}
+    .banner {margin-top: 80px;}
+    .btn-v1 {padding: 15px 14px;}
+}
+@media (max-width: 1200px) {
+    .banner .title {font-size: 30px; line-height: 40px;}
+    .function-elements a img { width: 58px;}
+    .background-v3 {height: 1300px;}
 }
 @media (max-width: 992px) {
     .function-elements img {width: 40px;}
@@ -125,13 +145,23 @@ hr.orange {border: 1px solid #F47820; width: 25%; opacity: 1;}
     .recommended .carousel__slide {width: 50%;}
     .product-carousel .card-title {font-size: 14px;}
     .product-carousel .img-wrapper {height: 180px;}
+    .background-v3 {height: 1150px;}
 }
-@media (max-width: 1200px) {
-    .banner .title {font-size: 30px; line-height: 40px;}
-    .function-elements a img { width: 58px;}
+@media (max-width: 768px) {
+    .background-v3 {height: 1500px;}
 }
-@media (max-width: 1400px) {
-    header {height: 580px;}
-    .banner {margin-top: 80px;}
-    .btn-v1 {padding: 15px 14px;}
+@media (max-width: 576px) {
+    header {height: 240px!important;}
+    .mob-opacity {opacity: 0.7}
+    .dropdown-list .dropdown a {color: #FAB600;}
+    .pt-v1 {padding-top: 50px;}
+    .mt-v1 {margin-top: 50px;}
+    .pb-v1 {padding-bottom: 290px;}
+    .pb-v2 {padding-bottom: 500px;}
+    .contact-form-background .title {font-size: 25px;}
+    .background-v3 {height: 1300px;}
 }
+
+
+
+
