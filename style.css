@@ -43,6 +43,8 @@ header {
 .efv-btn {text-decoration: none; color: white; text-transform: uppercase; border-radius: 25px; display: inline-block;}
 .efv-btn:hover {color: white;}
 .btn-v1 { background: #C6143E; padding: 15px 30px;}
+.btn-v4 { background: #1D2734; padding: 15px 40px; border-radius: 10px;}
+.btn-v4:hover { background: #C6143E;}
 .btn-v3 { background: #FAB600; padding: 15px 30px;}
 .btn-v2 { background: #1619205E; padding: 15px 40px; border: 2px solid #C6143E;}
 
@@ -74,8 +76,8 @@ header {
     background: #fff;
     box-shadow: 0px 10px 30px rgb(0 0 0 / 8%);
 }
-.product-carousel .carousel__button.is-next {right: -20px;}
-.product-carousel .carousel__button.is-prev {left: -20px;}
+.product-carousel .carousel__button.is-next {display: none;}
+.product-carousel .carousel__button.is-prev {display: none;}
 .product-carousel .nav-item {padding: 10px;}
 .product-carousel .card {border: none; padding: 10px;}
 .product-carousel .card-title {font-size: 25px;}
@@ -111,7 +113,7 @@ header {
 .footer-background {position: absolute; bottom: -1px;}
 .gray-v1 {color: #5F6E81;}
 .gray-v2 {color: #3F3F3F;}
-footer {background: #1A232E; color: white;}
+footer {background: #131e2a; color: white;}
 footer ul {list-style-type: none; padding-left: 0;}
 footer ul li {padding-bottom: 10px;}
 footer .icon-background {color: #344559;}
@@ -120,7 +122,7 @@ footer a {text-decoration: none; color: white;}
 footer a:hover {color: #F47820;}
 footer .subscribe {background: #1a1b1e; padding: 20px; border-radius: 10px;}
 footer .copyright {font-size: 12px; text-align: center; color: gray; padding: 10px;}
-footer .btn-outline-secondary {background: #C6143E; color: white; border: none;}
+footer .btn-outline-secondary, #btnSearch {background: #C6143E; color: white; border: none;}
 .list-inline li {display: inline-block;}
 hr.orange {border: 1px solid #F47820; width: 25%; opacity: 1;}
 .main p {font-size: 20px;}
@@ -128,7 +130,19 @@ hr.orange {border: 1px solid #F47820; width: 25%; opacity: 1;}
 .contact-form-background .title {font-size: 40px;}
 .contact-form-background .form-control {padding: 10px; border-radius: 20px; border-left: none; margin-left: -2px!important;}
 .contact-form-background .input-group-text {background-color: white; border-radius: 20px; padding-left: 20px; color: #C6143E;}
-
+.btn-close-v1 {color: #C6143E; font-size: 26px; cursor: pointer;}
+.catalog-bg {
+    background-image:url('img/catalog-bg.jpg');
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+}
+.modal .card {box-shadow: 0px 41.3164px 42.0815px rgba(74, 83, 188, 0.08); border: none;}
+.modal .card .img-wrapper {height: 280px;}
+.modal .card a.efv-btn {box-shadow: 0px 24px 49px rgba(6, 26, 49, 0.14);}
 @media (max-width: 1400px) {
     header {height: 580px;}
     .banner {margin-top: 80px;}
@@ -161,7 +175,3 @@ hr.orange {border: 1px solid #F47820; width: 25%; opacity: 1;}
     .contact-form-background .title {font-size: 25px;}
     .background-v3 {height: 1300px;}
 }
-
-
-
-

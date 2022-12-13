@@ -53,7 +53,7 @@
             </div>
             <div class="col-9 col-xl-4 col-lg-6 col-md-4 d-flex justify-content-end">
                 <div class="function-elements">
-                    <div><img src="img/search-btn.svg" alt=""></div>
+                    <div data-bs-toggle="modal" data-bs-target="#searchModal"><img src="img/search-btn.svg" alt=""></div>
                     <div><img src="img/cart-btn.svg" alt=""></div>
                     <div class="d-none d-xl-inline-block">
                         <a href="" class="efv-btn btn-v1">
@@ -85,9 +85,10 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <a href="" class="efv-btn btn-v2 mt-3 mt-sm-5 mx-2 mx-sm-4">
+                <!-- Button trigger modal -->
+                <button type="button" class="efv-btn btn-v2 mt-3 mt-sm-5 mx-2 mx-sm-4" data-bs-toggle="modal" data-bs-target="#catalogModal">
                     <span class="d-flex align-items-center">PRODUCTOS<img src="img/menu.svg" alt="" class="ms-2"></span>
-                </a>
+                </button>
             </div>
         </div>
         <div class="row banner d-none d-sm-block">
@@ -374,6 +375,146 @@
         </div>
     </div>
 </footer>
+
+<!-- Modal catalog -->
+<div class="modal fade" id="catalogModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content catalog-bg">
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row mt-4">
+                        <div class="col-12">
+                            <a href=""><img src="img/Logo2.png" alt="Logo"></a>
+                            <i class="fa-solid fa-xmark float-end btn-close-v1" data-bs-dismiss="modal"></i>
+                        </div>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mt-5">
+                        <div class="col pb-4">
+                            <div class="card">
+                                <div class="card-link">
+                                    <div class="card-body p-0 p-md-4 text-center">
+                                        <div class="img-wrapper">
+                                            <img src="img/main-img-1.jpg" alt="">
+                                        </div>
+                                        <h5 class="card-title my-5">MÓDULOS FOTOVOLTAICOS</h5>
+                                        <hr class="orange mx-auto">
+                                        <div class="card-text">
+                                            <a href="" class="efv-btn btn-v4 my-4">Saber más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col pb-4">
+                            <div class="card">
+                                <div class="card-link">
+                                    <div class="card-body p-0 p-md-4 text-center">
+                                        <div class="img-wrapper">
+                                            <img src="img/main-img-1.jpg" alt="">
+                                        </div>
+                                        <h5 class="card-title my-5">MÓDULOS FOTOVOLTAICOS</h5>
+                                        <hr class="orange mx-auto">
+                                        <div class="card-text">
+                                            <a href="" class="efv-btn btn-v4 my-4">Saber más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col pb-4">
+                            <div class="card">
+                                <div class="card-link">
+                                    <div class="card-body p-0 p-md-4 text-center">
+                                        <div class="img-wrapper">
+                                            <img src="img/main-img-1.jpg" alt="">
+                                        </div>
+                                        <h5 class="card-title my-5">MÓDULOS FOTOVOLTAICOS</h5>
+                                        <hr class="orange mx-auto">
+                                        <div class="card-text">
+                                            <a href="" class="efv-btn btn-v4 my-4">Saber más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col pb-4">
+                            <div class="card">
+                                <div class="card-link">
+                                    <div class="card-body p-0 p-md-4 text-center">
+                                        <div class="img-wrapper">
+                                            <img src="img/main-img-1.jpg" alt="">
+                                        </div>
+                                        <h5 class="card-title my-5">MÓDULOS FOTOVOLTAICOS</h5>
+                                        <hr class="orange mx-auto">
+                                        <div class="card-text">
+                                            <a href="" class="efv-btn btn-v4 my-4">Saber más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col pb-4">
+                            <div class="card">
+                                <div class="card-link">
+                                    <div class="card-body p-0 p-md-4 text-center">
+                                        <div class="img-wrapper">
+                                            <img src="img/main-img-1.jpg" alt="">
+                                        </div>
+                                        <h5 class="card-title my-5">MÓDULOS FOTOVOLTAICOS</h5>
+                                        <hr class="orange mx-auto">
+                                        <div class="card-text">
+                                            <a href="" class="efv-btn btn-v4 my-4">Saber más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col pb-4">
+                            <div class="card">
+                                <div class="card-link">
+                                    <div class="card-body p-0 p-md-4 text-center">
+                                        <div class="img-wrapper">
+                                            <img src="img/main-img-1.jpg" alt="">
+                                        </div>
+                                        <h5 class="card-title my-5">MÓDULOS FOTOVOLTAICOS</h5>
+                                        <hr class="orange mx-auto">
+                                        <div class="card-text">
+                                            <a href="" class="efv-btn btn-v4 my-4">Saber más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal search -->
+<div class="modal fade" id="searchModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content catalog-bg">
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row mt-4">
+                        <div class="col-12">
+                            <a href=""><img src="img/Logo2.png" alt="Logo"></a>
+                            <i class="fa-solid fa-xmark float-end btn-close-v1" data-bs-dismiss="modal"></i>
+                        </div>
+                    </div>
+                    <div class="row d-flex align-items-center">
+                        <form class="input-group my-5">
+                            <input type="text" class="form-control" placeholder="Consulta de busqueda" aria-describedby="btnSearch">
+                            <button class="btn btn-outline-secondary" type="button" id="btnSearch">Encontrar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
