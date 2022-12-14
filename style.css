@@ -1,9 +1,18 @@
-header {
+/* Bootstrap: Header moves when modal opens, fix */
+body {overflow: auto!important; padding-right: 0px!important;}
+
+.main .block h2 {color: white;}
+.main .block h2 span {color: #FAB600;}
+.header-background-v1 {
     background-image: url("img/Header.png");
     height: 900px;
     background-repeat:no-repeat;
     background-position:center;
 }
+.header-background-v2 {position: relative; background: #131e2a; min-height: 500px;}
+.top-v1 {padding-top: 230px; padding-bottom: 130px;}
+.z-index-3 {z-index: 3;}
+.max-width-v1 {max-width: 1172px; margin: 0 auto;}
 .top-menu li {padding: 0 18px;}
 .top-menu li a:hover, .dropdown-list li a:hover {color: #FAB600;}
 .top-menu li a, .dropdown-list li a, .dropdown-list .dropdown div.title {

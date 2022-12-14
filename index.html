@@ -13,89 +13,91 @@
 </head>
 <body>
 <header>
-    <div class="container position-relative">
-        <div class="row pt-3 pt-sm-5 align-items-center">
-            <div class="col-12 col-xl-3 col-gl-12 col-md-12 d-flex justify-content-center justify-content-md-start mb-3 mb-lg-0">
-                <a href=""><img src="img/Logo.png" alt="Logo"></a>
-            </div>
-            <div class="col-3 col-xl-5 col-lg-6 col-md-8">
-                <div class="d-none d-md-block">
-                    <ul class="nav nav-pills justify-content-center top-menu">
-                        <li>
-                            <a class="link " href="">inicio</a>
-                        </li>
-                        <li>
+    <div class="header-background-v1">
+        <div class="container position-relative">
+            <div class="row pt-3 pt-sm-5 align-items-center">
+                <div class="col-12 col-xl-3 col-gl-12 col-md-12 d-flex justify-content-center justify-content-md-start mb-3 mb-lg-0">
+                    <a href=""><img src="img/Logo.png" alt="Logo"></a>
+                </div>
+                <div class="col-3 col-xl-5 col-lg-6 col-md-8">
+                    <div class="d-none d-md-block">
+                        <ul class="nav nav-pills justify-content-center top-menu">
+                            <li>
+                                <a class="link " href="">inicio</a>
+                            </li>
+                            <li>
+                                <section class="dropdown-list">
+                                    <div class="dropdown closed">
+                                        <div class="title">nosotros</div>
+                                        <ul>
+                                            <li>
+                                                <a href="test.html">¿Quiénes somos?</a>
+                                            </li>
+                                            <li>
+                                                <a href="test2.html">Nuestro equipo</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </section>
+                            </li>
+                            <li>
+                                <a class="link " href="products.html">Products</a>
+                            </li>
+                            <li>
+                                <a class="link " href="">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="d-block d-md-none">
+                        <i aria-hidden="true" class="fas fa-bars mob-menu-icon"></i>
+                    </div>
+                </div>
+                <div class="col-9 col-xl-4 col-lg-6 col-md-4 d-flex justify-content-end">
+                    <div class="function-elements">
+                        <div data-bs-toggle="modal" data-bs-target="#searchModal"><img src="img/search-btn.svg" alt=""></div>
+                        <div><img src="img/cart-btn.svg" alt=""></div>
+                        <div class="d-none d-xl-inline-block">
+                            <a href="" class="efv-btn btn-v1">
+                                <img src="img/phone-call.svg" alt="" class="me-2">Contacto
+                            </a>
+                        </div>
+                        <div class="d-inline-block d-xl-none xl-2 ms-xl-0">
+                            <a href="">
+                                <img src="img/phone-circle.svg" alt="">
+                            </a>
+                        </div>
+                        <div>
                             <section class="dropdown-list">
                                 <div class="dropdown closed">
-                                    <div class="title">nosotros</div>
+                                    <div class="title">EN</div>
                                     <ul>
                                         <li>
-                                            <a href="test.html">¿Quiénes somos?</a>
+                                            <a href="test.html">es</a>
                                         </li>
                                         <li>
-                                            <a href="test2.html">Nuestro equipo</a>
+                                            <a href="test2.html">fr</a>
                                         </li>
                                     </ul>
                                 </div>
                             </section>
-                        </li>
-                        <li>
-                            <a class="link " href="products.html">Products</a>
-                        </li>
-                        <li>
-                            <a class="link " href="">Blog</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="d-block d-md-none">
-                    <i aria-hidden="true" class="fas fa-bars mob-menu-icon"></i>
-                </div>
-            </div>
-            <div class="col-9 col-xl-4 col-lg-6 col-md-4 d-flex justify-content-end">
-                <div class="function-elements">
-                    <div data-bs-toggle="modal" data-bs-target="#searchModal"><img src="img/search-btn.svg" alt=""></div>
-                    <div><img src="img/cart-btn.svg" alt=""></div>
-                    <div class="d-none d-xl-inline-block">
-                        <a href="" class="efv-btn btn-v1">
-                            <img src="img/phone-call.svg" alt="" class="me-2">Contacto
-                        </a>
-                    </div>
-                    <div class="d-inline-block d-xl-none xl-2 ms-xl-0">
-                        <a href="">
-                            <img src="img/phone-circle.svg" alt="">
-                        </a>
-                    </div>
-                    <div>
-                        <section class="dropdown-list">
-                            <div class="dropdown closed">
-                                <div class="title">EN</div>
-                                <ul>
-                                    <li>
-                                        <a href="test.html">es</a>
-                                    </li>
-                                    <li>
-                                        <a href="test2.html">fr</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </section>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <!-- Button trigger modal -->
-                <button type="button" class="efv-btn btn-v2 mt-3 mt-sm-5 mx-2 mx-sm-4" data-bs-toggle="modal" data-bs-target="#catalogModal">
-                    <span class="d-flex align-items-center">PRODUCTOS<img src="img/menu.svg" alt="" class="ms-2"></span>
-                </button>
+            <div class="row">
+                <div class="col-12">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="efv-btn btn-v2 mt-3 mt-sm-5 mx-2 mx-sm-4" data-bs-toggle="modal" data-bs-target="#catalogModal">
+                        <span class="d-flex align-items-center">PRODUCTOS<img src="img/menu.svg" alt="" class="ms-2"></span>
+                    </button>
+                </div>
             </div>
-        </div>
-        <div class="row banner d-none d-sm-block">
-            <div class="col-12">
-                <div class="justify-content-center text-center">
-                    <div class="title">Luzma Solar, desde 2005 en el sector de la energía renovable</div>
-                    <div class="text">Conoce nuestros productos y únete al sector más puntero de la economía.</div>
+            <div class="row banner d-none d-sm-block">
+                <div class="col-12">
+                    <div class="justify-content-center text-center">
+                        <div class="title">Luzma Solar, desde 2005 en el sector de la energía renovable</div>
+                        <div class="text">Conoce nuestros productos y únete al sector más puntero de la economía.</div>
+                    </div>
                 </div>
             </div>
         </div>
