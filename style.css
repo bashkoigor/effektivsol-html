@@ -54,6 +54,8 @@ body {overflow: auto!important; padding-right: 0px!important;}
 .btn-v1 { background: #C6143E; padding: 15px 30px;}
 .btn-v4 { background: #1D2734; padding: 15px 40px; border-radius: 10px;}
 .btn-v4:hover { background: #C6143E;}
+.btn-v5 {background: #1D2734; padding: 15px 40px; border-radius: 10px; border: none; box-shadow: 0px 24px 49px rgba(6, 26, 49, 0.14);}
+.btn-v5:hover { background: #FAB600;}
 .btn-v3 { background: #FAB600; padding: 15px 30px;}
 .btn-v2 { background: #1619205E; padding: 15px 40px; border: 2px solid #C6143E;}
 
@@ -64,6 +66,16 @@ body {overflow: auto!important; padding-right: 0px!important;}
 
 .background-v1 {background: linear-gradient(0deg, #EFF0FB 0%, #FFFFFF 74.16%);}
 .background-v2 {background: #FBFDFF;}
+
+.pagination .page-item {margin: 0 4px;}
+.pagination .page-link {border-radius: 5px; color: black;}
+.pagination .page-link:hover {background: #FAB600;}
+.pagination .page-link.active {background: #FAB600; border-color: #dee2e6;}
+
+.products .card {border: none; box-shadow: 0px 54px 55px rgba(74, 83, 188, 0.08);}
+.products .card-text p {color: #455777; font-size: 18px;}
+.products .img-wrapper {height: 290px; border: none;}
+.card-price {color: #C6143E; font-size: 25px; font-weight: 600;}
 
 .product-carousel .wrapper {
     background: rgba(255,255,255,0.5400000214576721);
@@ -153,11 +165,13 @@ hr.orange {border: 1px solid #F47820; width: 25%; opacity: 1;}
 .modal .card .img-wrapper {height: 280px;}
 .modal .card a.efv-btn {box-shadow: 0px 24px 49px rgba(6, 26, 49, 0.14);}
 @media (max-width: 1400px) {
-    header {height: 580px;}
+    header {height: 224px;}
     .banner {margin-top: 80px;}
     .btn-v1 {padding: 15px 14px;}
+    .top-v1 {padding: 0;}
 }
 @media (max-width: 1200px) {
+    header {height: 284px;}
     .banner .title {font-size: 30px; line-height: 40px;}
     .function-elements a img { width: 58px;}
     .background-v3 {height: 1300px;}
@@ -174,13 +188,14 @@ hr.orange {border: 1px solid #F47820; width: 25%; opacity: 1;}
     .background-v3 {height: 1500px;}
 }
 @media (max-width: 576px) {
-    header {height: 240px!important;}
+    header {height: 220px!important;}
     .mob-opacity {opacity: 0.7}
     .dropdown-list .dropdown a {color: #FAB600;}
     .pt-v1 {padding-top: 50px;}
     .mt-v1 {margin-top: 50px;}
     .pb-v1 {padding-bottom: 290px;}
     .pb-v2 {padding-bottom: 500px;}
+    .top-v1 {padding: 0;}
     .contact-form-background .title {font-size: 25px;}
     .background-v3 {height: 1300px;}
 }
