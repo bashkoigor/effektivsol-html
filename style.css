@@ -171,6 +171,7 @@ hr.orange {border: 1px solid #F47820; width: 25%; opacity: 1;}
 .breadcrumb a {color: #E2204E;}
 
 .product .block {background: white; box-shadow: 0px 88.8367px 90.4818px rgba(74, 83, 188, 0.08), inset 0px -4px 0px #C6143E; border-radius: 25px;}
+.product .block-v2 {background: white; box-shadow: 0px 88.8367px 90.4818px rgba(74, 83, 188, 0.08); border-radius: 25px;}
 .product #product-carousel img {width: 100%;}
 .product #product-carousel .carousel__slide {width: 100%;padding: 0;}
 .product #product-thumb-carousel .carousel__slide img {
@@ -180,13 +181,27 @@ hr.orange {border: 1px solid #F47820; width: 25%; opacity: 1;}
     border-radius: 4px;
 }
 .product #product-thumb-carousel .carousel__slide.is-nav-selected {opacity: 1;}
-.product #product-carousel, .product #product-thumb-carousel .carousel__slide {border: 1px solid #e6e6e6;}
+.product #product-carousel img,
+.product #product-thumb-carousel .carousel__slide img {border: 1px solid #e6e6e6; border-radius: 25px;}
 .product #product-thumb-carousel .carousel__slide {
     opacity: 0.5;
     padding: 0;
     margin: 10px 10px 10px 0;
     width: 20%;
 }
+
+.product .info .nav-tabs .nav-item.show, .nav-tabs .nav-link.active {color: #fff; background-color: #1C2533!important;}
+.product .info .nav-tabs .nav-item, .nav-tabs .nav-link {
+    color: black;
+    background-color: #DEE3F3;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 18px 50px;
+}
+.product .nav-tabs {border: none;}
+.product .tab-content {line-height: 35px;}
+
 .product .star-content {
     display: inline-block;
     vertical-align: middle;
@@ -208,10 +223,14 @@ hr.orange {border: 1px solid #F47820; width: 25%; opacity: 1;}
     font-family: "FontAwesome";
     display: inline-block;
     left: 0;
-    font-size: 13px;
+    font-size: 16px;
 }
 .product .dashed {border-top: dashed 2px;}
 .product .detail {color: #505864;}
+.product .price {color: #C7133E; font-size: 45px; font-weight: 500;}
+.product .sin-iva {font-size: 25px; font-weight: 500;}
+.pink {color: #C6143E;}
+a.pink:hover {color: #FAB600;}
 /* Custom icons */
 @font-face {
     font-family: 'icomoon';
@@ -241,6 +260,21 @@ hr.orange {border: 1px solid #F47820; width: 25%; opacity: 1;}
 .icon-phone-call-efv:before {content: "\e900";}
 .icon-shopping-cart-efv:before {content: "\e912";}
 .icon-marks-efv:before {content: "\e901"; color: #8c92ab;}
+
+.icon-warranty-efv, .icon-instructions-efv, .icon-quality-efv {font-size: 30px;}
+
+.icon-warranty-efv .path1:before {content: "\e906";}
+.icon-warranty-efv .path2:before {content: "\e907"; margin-left: -1em; color: rgb(198, 22, 64);}
+.icon-warranty-efv .path3:before {content: "\e908"; margin-left: -1em;}
+.icon-warranty-efv .path4:before {content: "\e909"; margin-left: -1em;}
+
+.icon-instructions-efv .path1:before {content: "\e903"; color: rgb(39, 49, 65);}
+.icon-instructions-efv .path2:before {content: "\e904"; margin-left: -1em; color: rgb(198, 20, 62);}
+.icon-instructions-efv .path3:before {content: "\e905"; margin-left: -1em; color: rgb(198, 20, 62);}
+
+.icon-quality-efv .path1:before {content: "\e90a"; color: rgb(38, 49, 64);}
+.icon-quality-efv .path2:before {content: "\e90b"; margin-left: -1em; color: rgb(38, 49, 64);}
+.icon-quality-efv .path3:before {content: "\e90c"; margin-left: -1em;color: rgb(198, 20, 62);}
 
 @media (max-width: 1400px) {
     header {height: 224px;}
