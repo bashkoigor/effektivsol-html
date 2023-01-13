@@ -276,6 +276,17 @@ a.pink:hover {color: #FAB600;}
 .icon-quality-efv .path2:before {content: "\e90b"; margin-left: -1em; color: rgb(38, 49, 64);}
 .icon-quality-efv .path3:before {content: "\e90c"; margin-left: -1em;color: rgb(198, 20, 62);}
 
+.mobile-menu-style .single {padding: 12px 20px; text-decoration: none; color: black; display: block;}
+.mobile-menu-style .accordion-item {border: none;}
+.mobile-menu-style .accordion-body {padding: 0;}
+.mobile-menu-style ul {list-style-type: none;}
+.mobile-menu-style ul li {padding: 12px 0;}
+.mobile-menu-style ul li a {text-decoration: none; color: black;}
+.mobile-menu-style .accordion-button:not(.collapsed) {background-color: #f8f9fa;}
+
+/* Remove focus */
+.accordion-button:focus {outline: none; box-shadow: none;}
+
 @media (max-width: 1400px) {
     header {height: 224px;}
     .banner {margin-top: 80px;}
