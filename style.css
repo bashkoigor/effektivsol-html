@@ -1,8 +1,7 @@
 /* Bootstrap: Header moves when modal opens, fix */
 body {overflow: auto!important; padding-right: 0px!important;}
 body a {text-decoration: none;}
-.products .block h2 {color: white;}
-.products .block h2 span {color: #FAB600;}
+.gold {color: #FAB600;}
 .header-background-v1 {
     background-image: url("img/Header.png");
     height: 900px;
@@ -11,6 +10,7 @@ body a {text-decoration: none;}
 }
 .header-background-v2 {position: relative; background: #131e2a; min-height: 500px;}
 .top-v1 {padding-top: 230px; padding-bottom: 130px;}
+.top-v2 {padding-top: 230px;}
 .z-index-3 {z-index: 3;}
 .max-width-v1 {max-width: 1172px; margin: 0 auto;}
 .top-menu li {padding: 0 18px;}
@@ -170,8 +170,18 @@ hr.orange {border: 1px solid #F47820; width: 25%; opacity: 1;}
 .breadcrumb-item.active {color: white;}
 .breadcrumb a {color: #E2204E;}
 
-.product .block {background: white; box-shadow: 0px 88.8367px 90.4818px rgba(74, 83, 188, 0.08), inset 0px -4px 0px #C6143E; border-radius: 25px;}
-.product .block-v2 {background: white; box-shadow: 0px 88.8367px 90.4818px rgba(74, 83, 188, 0.08); border-radius: 25px;}
+.products .block h2 {color: white;}
+.products .block h2 span, .about-us .block span {color: #FAB600;}
+
+.block-height-v1 {height: 400px;}
+.block-height-v2 {height: 170px;}
+
+.product .block, .about-us .block {background: white; box-shadow: 0px 88.8367px 90.4818px rgba(74, 83, 188, 0.08), inset 0px -4px 0px #C6143E; border-radius: 25px;}
+.product .block-v2, .about-us .block-v2 {background: white; box-shadow: 0px 88.8367px 90.4818px rgba(74, 83, 188, 0.08); border-radius: 25px;}
+.about-us .block-v3 {background: white; box-shadow: 0px 15px 120px rgba(74, 83, 188, 0.08); border-radius: 25px;}
+.about-us .card {border: none; box-shadow: 0px 15px 120px rgb(74 83 188 / 8%);}
+.about-us .card-title {text-transform: capitalize; line-height: 34px;}
+.about-us .card-text {font-size: 18px; line-height: 34px; text-align: center;}
 .product #product-carousel img {width: 100%;}
 .product #product-carousel .carousel__slide {width: 100%;padding: 0;}
 .product #product-thumb-carousel .carousel__slide img {
@@ -276,6 +286,8 @@ a.pink:hover {color: #FAB600;}
 .icon-quality-efv .path2:before {content: "\e90b"; margin-left: -1em; color: rgb(38, 49, 64);}
 .icon-quality-efv .path3:before {content: "\e90c"; margin-left: -1em;color: rgb(198, 20, 62);}
 
+.icon-arrow-efv:before {content: "\e910"; color: #fff;}
+
 .mobile-menu-style .single {padding: 12px 20px; text-decoration: none; color: black; display: block;}
 .mobile-menu-style .accordion-item {border: none;}
 .mobile-menu-style .accordion-body {padding: 0;}
@@ -298,6 +310,7 @@ a.pink:hover {color: #FAB600;}
     .banner .title {font-size: 30px; line-height: 40px;}
     .function-elements a img { width: 58px;}
     .background-v3 {height: 1300px;}
+    .about-us .mt-v1 {margin-top: 30px;}
 }
 @media (max-width: 992px) {
     .function-elements img {width: 40px;}
@@ -306,9 +319,11 @@ a.pink:hover {color: #FAB600;}
     .product-carousel .card-title {font-size: 14px;}
     .product-carousel .img-wrapper {height: 180px;}
     .background-v3 {height: 1150px;}
+    .about-us .mt-v1 {margin-top: 140px;}
 }
 @media (max-width: 768px) {
     .background-v3 {height: 1500px;}
+    .about-us .mt-v1 {margin-top: 0px;}
 }
 @media (max-width: 576px) {
     header {height: 220px!important;}
@@ -321,4 +336,6 @@ a.pink:hover {color: #FAB600;}
     .top-v1 {padding: 0;}
     .contact-form-background .title {font-size: 25px;}
     .background-v3 {height: 1300px;}
+    .block-height-v1 {height: 56px;}
+    .about-us .mt-v1 {margin-top: 150px;}
 }
