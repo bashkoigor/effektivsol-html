@@ -12,6 +12,15 @@ if (obRecommended1) {
     });
 }
 
+// Our team Carousel
+const obOurTeam = document.querySelector("#our_team");
+if (obOurTeam) {
+    const ourTeam = new Carousel(obOurTeam, {
+        slidesPerPage: 1,
+        center: false
+    });
+}
+
 // For product page
 if (document.querySelector(".product")) {
     // Product Carousel
