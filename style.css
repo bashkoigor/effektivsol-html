@@ -9,6 +9,7 @@ body a {text-decoration: none;}
     background-position:center;
 }
 .header-background-v2 {position: relative; background: #131e2a; min-height: 500px;}
+.hei
 .top-v1 {padding-top: 230px; padding-bottom: 130px;}
 .top-v2 {padding-top: 230px;}
 .z-index-3 {z-index: 3;}
@@ -174,6 +175,7 @@ hr.orange {border: 1px solid #F47820; width: 25%; opacity: 1;}
 
 .block-height-v1 {height: 400px;}
 .block-height-v2 {height: 170px;}
+.block-height-v3 {height: 620px;}
 
 .product .block, .about-us .block {background: white; box-shadow: 0px 88.8367px 90.4818px rgba(74, 83, 188, 0.08), inset 0px -4px 0px #C6143E; border-radius: 25px;}
 .product .block-v2, .about-us .block-v2 {background: white; box-shadow: 0px 88.8367px 90.4818px rgba(74, 83, 188, 0.08); border-radius: 25px;}
