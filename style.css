@@ -134,6 +134,7 @@ body a {text-decoration: none;}
 .pb-v2 {padding-bottom: 560px;}
 .pt-v1 {padding-top: 130px}
 .mt-v1 {margin-top: 150px}
+.mt-v2 {margin-top: 120px}
 .footer-background {position: absolute; bottom: -1px;}
 .gray-v1 {color: #5F6E81;}
 .gray-v2 {color: #3F3F3F;}
@@ -305,6 +306,7 @@ a.pink:hover {color: #FAB600;}
     .banner {margin-top: 80px;}
     .btn-v1 {padding: 15px 14px;}
     .top-v1 {padding: 0;}
+    .top-v2 {padding-top: 20px;}
 }
 @media (max-width: 1200px) {
     header {height: 284px;}
@@ -332,11 +334,13 @@ a.pink:hover {color: #FAB600;}
     .dropdown-list .dropdown a {color: #FAB600;}
     .pt-v1 {padding-top: 50px;}
     .mt-v1 {margin-top: 50px;}
+    .mt-v2 {margin-top: 60px}
     .pb-v1 {padding-bottom: 290px;}
-    .pb-v2 {padding-bottom: 500px;}
+    .pb-v2 {padding-bottom: 400px;}
     .top-v1 {padding: 0;}
     .contact-form-background .title {font-size: 25px;}
-    .background-v3 {height: 1300px;}
+    .contact-form-background {height: 660px;}
+    .background-v3 {height: 1200px;}
     .block-height-v1 {height: 56px;}
     .about-us .mt-v1 {margin-top: 150px;}
 }
