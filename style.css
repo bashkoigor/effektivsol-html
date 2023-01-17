@@ -9,6 +9,7 @@ body a {text-decoration: none;}
     background-position:center;
 }
 .header-background-v2 {position: relative; background: #131e2a; min-height: 500px;}
+.header-background-v3 {position: relative; background: #131e2a; bottom: -1px;}
 .top-v1 {padding-top: 230px; padding-bottom: 130px;}
 .top-v2 {padding-top: 230px;}
 .z-index-3 {z-index: 3;}
@@ -132,6 +133,8 @@ body a {text-decoration: none;}
 }
 .pb-v1 {padding-bottom: 380px;}
 .pb-v2 {padding-bottom: 560px;}
+.pb-v3 {padding-bottom: 470px;}
+.pb-v4 {padding-bottom: 100px;}
 .pt-v1 {padding-top: 130px}
 .mt-v1 {margin-top: 150px}
 .mt-v2 {margin-top: 120px}
@@ -310,12 +313,20 @@ a.pink:hover {color: #FAB600;}
 /* Remove focus */
 .accordion-button:focus {outline: none; box-shadow: none;}
 
+.blog .pb-v3 {padding-bottom: 440px;}
+.blog .tag {color: #C6143E;}
+.blog .date {color: #938E8F; text-transform: uppercase;}
+.blog .card-text {color: #938E8F;}
+.blog .img-wrapper {border: none;}
+.blog .card {box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;}
+
 @media (max-width: 1400px) {
     header {height: 224px;}
     .banner {margin-top: 80px;}
     .btn-v1 {padding: 15px 14px;}
     .top-v1 {padding: 0;}
     .top-v2 {padding-top: 20px;}
+    .blog .contact-form-background {top: -190px;}
 }
 @media (max-width: 1200px) {
     header {height: 284px;}
@@ -323,6 +334,9 @@ a.pink:hover {color: #FAB600;}
     .function-elements a img { width: 58px;}
     .background-v3 {height: 1300px;}
     .about-us .mt-v1 {margin-top: 30px;}
+    .blog .contact-form-background {top: -140px;}
+    .blog .pb-v3 {padding-bottom: 570px;}
+
 }
 @media (max-width: 992px) {
     .function-elements img {width: 40px;}
@@ -333,6 +347,8 @@ a.pink:hover {color: #FAB600;}
     .product-carousel .img-wrapper {height: 180px;}
     .background-v3 {height: 1150px;}
     .about-us .mt-v1 {margin-top: 140px;}
+    .blog .contact-form-background {top: -100px;}
+    .blog .pb-v3 {padding-bottom: 650px;}
 }
 @media (max-width: 768px) {
     .background-v3 {height: 1500px;}
@@ -354,4 +370,7 @@ a.pink:hover {color: #FAB600;}
     .background-v3 {height: 1200px;}
     .block-height-v1 {height: 56px;}
     .about-us .mt-v1 {margin-top: 150px;}
+    .blog .contact-form-background {top: -70px;}
+    .blog .pb-v3 {padding-bottom: 570px;}
+    .blog .pb-v4 {padding-bottom: 40px;}
 }
