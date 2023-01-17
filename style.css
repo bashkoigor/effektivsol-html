@@ -10,6 +10,7 @@ body a {text-decoration: none;}
 }
 .header-background-v2 {position: relative; background: #131e2a; min-height: 500px;}
 .header-background-v3 {position: relative; background: #131e2a; bottom: -1px;}
+.shadow-v1 {box-shadow: 14px 20px 100px rgba(49, 89, 211, 0.13);}
 .top-v1 {padding-top: 230px; padding-bottom: 130px;}
 .top-v2 {padding-top: 230px;}
 .z-index-3 {z-index: 3;}
@@ -60,7 +61,7 @@ body a {text-decoration: none;}
 .btn-v4:hover { background: #C6143E;}
 .btn-v5 {background: #1D2734; padding: 15px 40px; border-radius: 10px; border: none; box-shadow: 0px 24px 49px rgba(6, 26, 49, 0.14);}
 .btn-v5:hover { background: #FAB600;}
-.btn-v3 { background: #FAB600; padding: 15px 30px;}
+.btn-v3 { background: #FAB600; padding: 15px 30px; border: none;}
 .btn-v2 { background: #1619205E; padding: 15px 40px; border: 2px solid #C6143E;}
 
 .banner {color: white; margin-top: 140px;}
@@ -70,6 +71,8 @@ body a {text-decoration: none;}
 
 .background-v1 {background: linear-gradient(0deg, #EFF0FB 0%, #FFFFFF 74.16%);}
 .background-v2 {background: #FBFDFF;}
+.block-wrapper-v1 {background: #FFF2CF; padding: 25px; width: 85px; box-shadow: -7.13415px 14.2683px 28.5366px rgba(255, 222, 170, 0.301961);}
+.block-wrapper-v1 i {font-size: 32px;}
 
 .pagination .page-item {margin: 0 4px;}
 .pagination .page-link {border-radius: 5px; color: black;}
@@ -138,6 +141,7 @@ body a {text-decoration: none;}
 .pt-v1 {padding-top: 130px}
 .mt-v1 {margin-top: 150px}
 .mt-v2 {margin-top: 120px}
+.mt-v3 {margin-top: 100px}
 .footer-background {position: absolute; bottom: -1px;}
 .gray-v1 {color: #5F6E81;}
 .gray-v2 {color: #3F3F3F;}
@@ -319,6 +323,10 @@ a.pink:hover {color: #FAB600;}
 .blog .card-text {color: #938E8F;}
 .blog .img-wrapper {border: none;}
 .blog .card {box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;}
+
+.contacts .form-control,
+.contacts .form-select {border: none; padding: 12px 18px; border-radius: 30px; border: 1px solid rgba(80, 80, 80, 0.06);}
+.contacts .form-check-input {width: 20px; height: 20px;}
 
 @media (max-width: 1400px) {
     header {height: 224px;}
