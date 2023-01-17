@@ -245,6 +245,13 @@ hr.orange {border: 1px solid #F47820; width: 25%; opacity: 1;}
 .product .sin-iva {font-size: 25px; font-weight: 500;}
 .pink {color: #C6143E;}
 a.pink:hover {color: #FAB600;}
+
+.accordion-item {border: none; border-left: 2px solid  #FAB600; margin: 20px 0px; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;}
+.accordion-body {padding: 20px; background-color: white; font-size: 14px;}
+.accordion-button:focus {box-shadow: none; border-color: rgba(0,0,0,.125); outline: none;}
+.accordion-button:not(.collapsed) {color: black; box-shadow: none; background-color: white; color: #C6143E;}
+.accordion-button {background-color: white; font-weight: 500;}
+
 /* Custom icons */
 @font-face {
     font-family: 'icomoon';
