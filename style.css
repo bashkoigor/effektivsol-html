@@ -261,6 +261,7 @@ a.pink:hover {color: #FAB600;}
 .faqs .accordion-button:focus {box-shadow: none; border-color: rgba(0,0,0,.125); outline: none;}
 .faqs .accordion-button:not(.collapsed) {color: black; box-shadow: none; background-color: white; color: #C6143E;}
 .faqs .accordion-button {background-color: white; font-weight: 500;}
+.faqs .mt-v1, .our-team .mt-v1 {margin-top: 100px;}
 
 /* Custom icons */
 @font-face {
@@ -413,4 +414,6 @@ a.pink:hover {color: #FAB600;}
     .blog .contact-form-background {top: -70px;}
     .blog .pb-v3 {padding-bottom: 570px;}
     .blog .pb-v4 {padding-bottom: 40px;}
+    .cart .pb-v4, .contacts .pb-v4 {padding-bottom: 30px;}
+    .contacts .mt-v3 {margin-top: 40px;}
 }
