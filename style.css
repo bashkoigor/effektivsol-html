@@ -156,7 +156,6 @@ footer .subscribe {background: #1a1b1e; padding: 20px; border-radius: 10px;}
 footer .copyright {font-size: 12px; text-align: center; color: gray; padding: 10px;}
 footer .btn-outline-secondary, #btnSearch {background: #C6143E; color: white; border: none;}
 .social a {color: white; background: black; padding: 10px; display: block; width: 45px;}
-.our-team .card {}
 .list-inline li {display: inline-block;}
 hr.orange {border: 1px solid #F47820; width: 25%; opacity: 1;}
 .main p {font-size: 20px;}
@@ -187,9 +186,9 @@ hr.orange {border: 1px solid #F47820; width: 25%; opacity: 1;}
 .block-height-v2 {height: 170px;}
 .block-height-v3 {height: 620px;}
 
-.product .block, .about-us .block, .our-team .block {background: white; box-shadow: 0px 88.8367px 90.4818px rgba(74, 83, 188, 0.08), inset 0px -4px 0px #C6143E; border-radius: 25px;}
-.product .block-v2, .about-us .block-v2 {background: white; box-shadow: 0px 88.8367px 90.4818px rgba(74, 83, 188, 0.08); border-radius: 25px;}
-.about-us .block-v3, .our-team .block-v3 {background: white; box-shadow: 0px 15px 120px rgba(74, 83, 188, 0.08); border-radius: 25px;}
+.product .block, .about-us .block, .our-team .block, .faqs .block {background: white; box-shadow: 0px 88.8367px 90.4818px rgba(74, 83, 188, 0.08), inset 0px -4px 0px #C6143E; border-radius: 25px;}
+.product .block-v2, .about-us .block-v2, .faqs .block-v2 {background: white; box-shadow: 0px 88.8367px 90.4818px rgba(74, 83, 188, 0.08); border-radius: 25px;}
+.about-us .block-v3, .our-team .block-v3, .faqs .block-v3 {background: white; box-shadow: 0px 15px 120px rgba(74, 83, 188, 0.08); border-radius: 25px;}
 .about-us .card {border: none; box-shadow: 0px 15px 120px rgb(74 83 188 / 8%);}
 .about-us .card-title {text-transform: capitalize; line-height: 34px;}
 .about-us .card-text {font-size: 18px; line-height: 34px; text-align: center;}
@@ -253,11 +252,11 @@ hr.orange {border: 1px solid #F47820; width: 25%; opacity: 1;}
 .pink {color: #C6143E;}
 a.pink:hover {color: #FAB600;}
 
-.accordion-item {border: none; border-left: 2px solid  #FAB600; margin: 20px 0px; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;}
-.accordion-body {padding: 20px; background-color: white; font-size: 14px;}
-.accordion-button:focus {box-shadow: none; border-color: rgba(0,0,0,.125); outline: none;}
-.accordion-button:not(.collapsed) {color: black; box-shadow: none; background-color: white; color: #C6143E;}
-.accordion-button {background-color: white; font-weight: 500;}
+.faqs .accordion-item {border: none; border-left: 2px solid  #FAB600; margin: 20px 0px; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;}
+.faqs .accordion-body {padding: 20px; background-color: white; font-size: 14px;}
+.faqs .accordion-button:focus {box-shadow: none; border-color: rgba(0,0,0,.125); outline: none;}
+.faqs .accordion-button:not(.collapsed) {color: black; box-shadow: none; background-color: white; color: #C6143E;}
+.faqs .accordion-button {background-color: white; font-weight: 500;}
 
 /* Custom icons */
 @font-face {
@@ -312,7 +311,7 @@ a.pink:hover {color: #FAB600;}
 .mobile-menu-style ul {list-style-type: none;}
 .mobile-menu-style ul li {padding: 12px 0;}
 .mobile-menu-style ul li a {text-decoration: none; color: black;}
-.mobile-menu-style .accordion-button:not(.collapsed) {background-color: #f8f9fa;}
+.mobile-menu-style .accordion-button:not(.collapsed) {background-color: white; box-shadow: none;}
 
 /* Remove focus */
 .accordion-button:focus {outline: none; box-shadow: none;}
@@ -368,6 +367,7 @@ a.pink:hover {color: #FAB600;}
     .dropdown-list .dropdown a {color: #FAB600;}
     .pt-v1 {padding-top: 50px;}
     .mt-v1 {margin-top: 50px;}
+    .faqs .mt-v1 {margin-top: 130px;}
     .our-team .mt-v1 {margin-top: 200px;}
     .mt-v2 {margin-top: 60px}
     .pb-v1 {padding-bottom: 290px;}
