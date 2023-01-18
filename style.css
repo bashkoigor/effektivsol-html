@@ -1,5 +1,6 @@
 /* Bootstrap: Header moves when modal opens, fix */
 body {overflow: auto!important; padding-right: 0px!important;}
+body.compensate-for-scrollbar {overflow: auto!important;}
 body a {text-decoration: none;}
 .gold {color: #FAB600;}
 .chery {color: #C6143E;}
