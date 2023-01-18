@@ -2,6 +2,7 @@
 body {overflow: auto!important; padding-right: 0px!important;}
 body a {text-decoration: none;}
 .gold {color: #FAB600;}
+.chery {color: #C6143E;}
 .header-background-v1 {
     background-image: url("img/Header.png");
     height: 900px;
@@ -16,7 +17,7 @@ body a {text-decoration: none;}
 .z-index-3 {z-index: 3;}
 .max-width-v1 {max-width: 1172px; margin: 0 auto;}
 .top-menu li {padding: 0 18px;}
-.top-menu li a:hover, .dropdown-list li a:hover {color: #FAB600;}
+.top-menu li a:hover, .dropdown-list li a:hover, .cart-items a:hover {color: #FAB600;}
 .top-menu li a, .dropdown-list li a, .dropdown-list .dropdown div.title {
     color: white;
     text-decoration: none;
@@ -58,11 +59,13 @@ body a {text-decoration: none;}
 .btn-v6:hover {color: #FAB600;}
 .btn-v1 { background: #C6143E; padding: 15px 30px;}
 .btn-v4 { background: #1D2734; padding: 15px 40px; border-radius: 10px;}
-.btn-v4:hover { background: #C6143E;}
+.btn-v4:hover, .btn-v9:hover { background: #C6143E;}
 .btn-v5 {background: #1D2734; padding: 15px 40px; border-radius: 10px; border: none; box-shadow: 0px 24px 49px rgba(6, 26, 49, 0.14);}
-.btn-v5:hover { background: #FAB600;}
+.btn-v5:hover, .btn-v8:hover { background: #FAB600;}
 .btn-v3 { background: #FAB600; padding: 15px 30px; border: none;}
 .btn-v2 { background: #1619205E; padding: 15px 40px; border: 2px solid #C6143E;}
+.btn-v8 {background: #C6143E; padding: 10px; border-radius: 10px; border: none; width: 100%; text-transform: capitalize;}
+.btn-v9 {background: #FAB600; padding: 10px; border-radius: 5px; border: none; width: 100%; text-transform: capitalize;}
 
 .banner {color: white; margin-top: 140px;}
 .banner .title {font-size: 50px; line-height: 57px; font-weight: 600; margin-bottom: 25px;}
@@ -189,6 +192,7 @@ hr.orange {border: 1px solid #F47820; width: 25%; opacity: 1;}
 .product .block, .about-us .block, .our-team .block, .faqs .block {background: white; box-shadow: 0px 88.8367px 90.4818px rgba(74, 83, 188, 0.08), inset 0px -4px 0px #C6143E; border-radius: 25px;}
 .product .block-v2, .about-us .block-v2, .faqs .block-v2 {background: white; box-shadow: 0px 88.8367px 90.4818px rgba(74, 83, 188, 0.08); border-radius: 25px;}
 .about-us .block-v3, .our-team .block-v3, .faqs .block-v3 {background: white; box-shadow: 0px 15px 120px rgba(74, 83, 188, 0.08); border-radius: 25px;}
+.cart .block-v4 {background: white; box-shadow: 0px 15px 120px rgba(74, 83, 188, 0.08); border-radius: 15px;}
 .about-us .card {border: none; box-shadow: 0px 15px 120px rgb(74 83 188 / 8%);}
 .about-us .card-title {text-transform: capitalize; line-height: 34px;}
 .about-us .card-text {font-size: 18px; line-height: 34px; text-align: center;}
@@ -326,6 +330,34 @@ a.pink:hover {color: #FAB600;}
 .contacts .form-control,
 .contacts .form-select {border: none; padding: 12px 18px; border-radius: 30px; border: 1px solid rgba(80, 80, 80, 0.06);}
 .contacts .form-check-input {width: 20px; height: 20px;}
+
+.cart .payment label {font-weight: 500;}
+.cart .payment-item {background: #F9F9FB; border-radius: 15px; padding: 10px 20px; margin-bottom: 10px; border-left: 2px solid #FAB600;}
+.cart-items a {color: black; font-weight: 500;}
+.cart-items {list-style: none; padding: 0; margin-bottom: 30px;}
+.cart-items .cart-item {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.82);
+    box-shadow: 14px 20px 100px rgba(49, 89, 211, 0.09);
+    border-radius: 10px;
+}
+.align-items-center {align-items: center!important;}
+.product-amount {flex-shrink: 0; display: inline-flex; vertical-align: top; margin-right: 15px;}
+.product-amount-decrease, .product-amount-increase {border: 1px solid #ebebeb; text-align: center; background: white; padding: 8px;}
+.product-amount-number {
+    max-width: 40px;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    border-left: transparent;
+    border-right: transparent;
+    text-align: center;
+}
+.product-amount-increase {border-radius: 0 4px 4px 0;}
+.product-amount-decrease {border-radius: 4px 0 0 4px;}
+.cart-del {cursor: pointer;}
+
+.hr-gray {color: #979797;}
 
 @media (max-width: 1400px) {
     header {height: 224px;}

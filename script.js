@@ -3,6 +3,18 @@ $(".dropdown-list .dropdown .title").click(function () {
     $(this).parent().toggleClass("closed");
 });
 
+// Decrease, increase product amount
+$(document).on('click', '.product-amount-increase', (e) => {
+    let x = $( e.currentTarget ).siblings(".product-amount input").val();
+    $( e.currentTarget ).siblings(".product-amount input").attr('value', ++x);
+});
+$(document).on('click', '.product-amount-decrease', (e) => {
+    let x = $( e.currentTarget ).siblings(".product-amount input").val();
+    if (x > 1) {
+        $( e.currentTarget ).siblings(".product-amount input").attr('value', --x);
+    }
+});
+
 // Recommended products Carousel
 const obRecommended1 = document.querySelector("#recommended1");
 if (obRecommended1) {

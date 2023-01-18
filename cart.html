@@ -1,0 +1,563 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5177f8d642.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+<header>
+    <div class="">
+        <div class="header-background-v3">
+            <div class="container position-relative z-index-3">
+                <div class="row pt-3 pt-sm-5 align-items-center">
+                    <div class="col-12 col-xl-3 col-gl-12 col-md-12 d-flex justify-content-center justify-content-md-start mb-3 mb-lg-0">
+                        <a href=""><img src="img/Logo.png" alt="Logo"></a>
+                    </div>
+                    <div class="col-3 col-xl-5 col-lg-6 col-md-8">
+                        <div class="d-none d-md-block">
+                            <ul class="nav nav-pills justify-content-center top-menu">
+                                <li>
+                                    <a class="link " href="">inicio</a>
+                                </li>
+                                <li>
+                                    <section class="dropdown-list">
+                                        <div class="dropdown closed">
+                                            <div class="title">nosotros</div>
+                                            <ul>
+                                                <li>
+                                                    <a href="test.html">¿Quiénes somos?</a>
+                                                </li>
+                                                <li>
+                                                    <a href="test2.html">Nuestro equipo</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </section>
+                                </li>
+                                <li>
+                                    <a class="link " href="products.html">Products</a>
+                                </li>
+                                <li>
+                                    <a class="link " href="">Blog</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="d-block d-md-none">
+                            <i aria-hidden="true" class="fas fa-bars mob-menu-icon" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLeft" aria-controls="offcanvasLeft"></i>
+                        </div>
+                    </div>
+                    <div class="col-9 col-xl-4 col-lg-6 col-md-4 d-flex justify-content-end">
+                        <div class="function-elements">
+                            <div data-bs-toggle="modal" data-bs-target="#searchModal"><img src="img/search-btn.svg" alt=""></div>
+                            <div><img src="img/cart-btn.svg" alt=""></div>
+                            <div class="d-none d-xl-inline-block">
+                                <a href="" class="efv-btn btn-v1">
+                                    <img src="img/phone-call.svg" alt="" class="me-2">Contacto
+                                </a>
+                            </div>
+                            <div class="d-inline-block d-xl-none xl-2 ms-xl-0">
+                                <a href="">
+                                    <img src="img/phone-circle.svg" alt="">
+                                </a>
+                            </div>
+                            <div>
+                                <section class="dropdown-list">
+                                    <div class="dropdown closed">
+                                        <div class="title">EN</div>
+                                        <ul>
+                                            <li>
+                                                <a href="test.html">es</a>
+                                            </li>
+                                            <li>
+                                                <a href="test2.html">fr</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="efv-btn btn-v2 mt-3 mt-sm-5 mx-2 mx-sm-4" data-bs-toggle="modal" data-bs-target="#catalogModal">
+                            <span class="d-flex align-items-center">PRODUCTOS<img src="img/menu.svg" alt="" class="ms-2"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="img/header-background-v2.png" alt="" class="img-fluid">
+    </div>
+</header>
+<div class="position-relative cart">
+    <div class="background-v1">
+        <div class="max-width-v1 pb-3 pb-sm-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="text-center my-5">
+                            <h2>CART</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="cart-table-wrapper">
+                                    <form action="">
+                                        <ul class="cart-items cartData">
+                                            <li class="cart-item product-wrapper" data-position-id="">
+                                                <input type="hidden" name="offer_id" value="">
+                                                <input type="hidden" name="weight" value="">
+                                                <input type="hidden" name="height" value="">
+                                                <input type="hidden" name="length" value="">
+                                                <input type="hidden" name="width" value="">
+                                                <div class="row align-items-center gx-3">
+                                                    <div class="col-4 col-md-1 mb-md-0 mb-3">
+                                                        <img class="img-fluid" src="https://effektiv.shop/storage/app/uploads/public/627/14f/7c7/62714f7c7661d998600176.png" alt="" title="">
+                                                    </div>
+                                                    <div class="col-8 col-md-6 mb-md-0 mb-3">
+                                                        <a class="label" href="https://effektiv.shop/ru/product/overlok-effektiv-triumphator-1700h-zhyoltyj">
+                                                            Оверлок EFFEKTIV Triumphator 1700Х Жёлтый
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-8 col-md-1">
+                                                        <span class="d-inline-block d-md-none">Цена: </span>
+                                                        <span class="price text-black-50">200$</span>
+                                                    </div>
+                                                    <div class="col-4 col-md-2 d-flex justify-content-md-center justify-content-end">
+                                                        <div class="product-amount">
+                                                            <button type="button" class="product-amount-decrease">-</button>
+                                                            <input type="number" class="product-amount-number" name="quantity" value="1" min="1" max="9">
+                                                            <button type="button" class="product-amount-increase">+</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-md-1">
+                                                        <span class="d-inline-block d-md-none">Подытог: </span>
+                                                        <span class="total-price chery fw-bold">980$</span>
+                                                    </div>
+                                                    <div class="col-12 col-md-1 d-flex justify-content-end">
+                                                        <div class="cart-del cart-remove">
+                                                            <i class="fa-solid fa-xmark"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="cart-item product-wrapper" data-position-id="">
+                                                <input type="hidden" name="offer_id" value="">
+                                                <input type="hidden" name="weight" value="">
+                                                <input type="hidden" name="height" value="">
+                                                <input type="hidden" name="length" value="">
+                                                <input type="hidden" name="width" value="">
+                                                <div class="row align-items-center gx-3">
+                                                    <div class="col-4 col-md-1 mb-md-0 mb-3">
+                                                        <img class="img-fluid" src="https://effektiv.shop/storage/app/uploads/public/637/f35/4c2/637f354c25185554631746.png" alt="" title="">
+                                                    </div>
+                                                    <div class="col-8 col-md-6 mb-md-0 mb-3">
+                                                        <a class="label" href="https://effektiv.shop/ru/product/overlok-effektiv-triumphator-1000x">
+                                                            Оверлок EFFEKTIV Triumphator 1000X
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-8 col-md-1">
+                                                        <span class="d-inline-block d-md-none">Цена: </span>
+                                                        <span class="price text-black-50">100$</span>
+                                                    </div>
+                                                    <div class="col-4 col-md-2 d-flex justify-content-md-center justify-content-end">
+                                                        <div class="product-amount">
+                                                            <button type="button" class="product-amount-decrease">-</button>
+                                                            <input type="number" class="product-amount-number" name="quantity" value="1" min="1" max="9">
+                                                            <button type="button" class="product-amount-increase">+</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-md-1">
+                                                        <span class="d-inline-block d-md-none">Подытог: </span>
+                                                        <span class="total-price chery fw-bold">990$</span>
+                                                    </div>
+                                                    <div class="col-12 col-md-1 d-flex justify-content-end">
+                                                        <div class="cart-del cart-remove">
+                                                            <i class="fa-solid fa-xmark"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="block-v4 p-4 payment">
+                                    <div class="row gy-4">
+                                        <div class="col-12">
+                                            <h3 class="mb-4">Course checkout</h3>
+                                        </div>
+                                        <div class="col-12 col-lg-6">
+                                            <label for="ef_country" class="form-label">Country</label>
+                                            <select class="form-select" id="ef_country">
+                                                <option selected>Open this select menu</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-12 col-lg-6">
+                                            <label for="ef_email" class="form-label">Email</label>
+                                            <input type="text" class="form-control" id="ef_email">
+                                        </div>
+                                        <div class="col-12 col-lg-6">
+                                            <label for="ef_name" class="form-label">Name</label>
+                                            <input type="text" class="form-control" id="ef_name">
+                                        </div>
+                                        <div class="col-12 col-lg-6">
+                                            <label for="ef_phone" class="form-label">Phone</label>
+                                            <input type="text" class="form-control" id="ef_phone">
+                                        </div>
+                                        <div class="col-12">
+                                            <label for="ef_address" class="form-label">Address</label>
+                                            <textarea class="form-control" id="ef_address" rows="3"></textarea>
+                                        </div>
+                                        <div class="col-12">
+                                            <h4 class="my-4">Payment Method</h4>
+                                            <div class="payment-item form-check">
+                                                <input class="form-check-input mx-1" type="radio" name="pay" id="pay1" checked>
+                                                <label class="form-check-label ms-2" for="pay1">
+                                                    Default radio
+                                                </label>
+                                            </div>
+                                            <div class="payment-item form-check">
+                                                <input class="form-check-input mx-1" type="radio" name="pay" id="pay2">
+                                                <label class="form-check-label ms-2" for="pay2">
+                                                    Default checked radio
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 mt-4 mt-lg-0">
+                        <div class="block-v4 p-4 position-sticky top-0">
+                            <div class="row">
+                                <div class="col-12"><h4 class="text-center">Cart Total</h4></div>
+                                <div class="col-12"><hr class="my-3 hr-gray"></div>
+                            </div>
+                            <div class="row text-black-50">
+                                <div class="col-5"><div class="text-start">Subtotal</div></div>
+                                <div class="col-7"><div class="text-end">$300</div></div>
+                                <div class="col-12"><hr class="my-3 hr-gray"></div>
+                            </div>
+                            <div class="row text-black-50">
+                                <div class="col-5"><div class="">Enter your coupon code</div></div>
+                                <div class="col-7">
+                                    <form action="">
+                                        <input type="text" class="form-control mb-2" id="coupon" name="coupon" placeholder="">
+                                        <button type="button" class="efv-btn btn-v8">Update Total</button>
+                                    </form>
+                                </div>
+                                <div class="col-12"><hr class="my-3 hr-gray"></div>
+                            </div>
+                            <div class="row text-black-50">
+                                <div class="col-5"><div class="text-start">Total</div></div>
+                                <div class="col-7"><div class="text-end chery"><b>$300</b></div></div>
+                                <div class="col-12"><hr class="my-3 hr-gray"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <button class="efv-btn btn-v9" type="submit">Create order</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="img/Wave.png" alt="" class="img-fluid">
+    </div>
+    <div class="background-v2 pb-v4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-5 d-flex align-items-center text-center">
+                    <div>
+                        <h4 class="lh-lg">Luzmasolar nació con la intención de ayudar a los profesionales del sector de las renovables, no
+                            somos una tienda online, puedes visitarnos físicamente cuando quieras. Tenemos personal especializado
+                            desde el nacimiento de la energía fotovoltaica en 2005.</h4>
+                        <a href="" class="efv-btn btn-v3 mt-3">
+                            <span class="d-flex align-items-center">
+                                MÁS informacion<i class="icon-arrow-efv ms-2"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-7 d-flex justify-content-end">
+                    <img src="img/main-image-3.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="img/footer-background.png" alt="" class="img-fluid footer-background">
+</div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-4 my-3">
+                <h3 class="mb-5">Design</h3>
+                <ul>
+                    <li>
+                        <span class="fa-stack fa-4x icon-size">
+                            <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                            <i class="fa-solid fa-location-dot fa-stack-1x"></i>
+                        </span>
+                        <span>Suhareke - Kosove</span>
+                    </li>
+                    <li>
+                        <span class="fa-stack fa-4x icon-size">
+                            <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                            <i class="fa-regular fa-envelope fa-stack-1x"></i>
+                        </span>
+                        <span>qwerty@email.rks</span>
+                    </li>
+                    <li>
+                        <span class="fa-stack fa-4x icon-size">
+                            <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                            <i class="fa-solid fa-phone fa-stack-1x"></i>
+                        </span>
+                        <span>+383 44 111 111</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-4 my-3">
+                <h3 class="mb-5">Work Time</h3>
+                <p class="mb-5">Opening in weekdays from 9:00 to 18:00</p>
+                <h5 class="mb-3">Follow Us:</h5>
+                <ul class="list-inline">
+                    <li>
+                        <a href="">
+                            <span class="fa-stack fa-4x icon-size">
+                                <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                                <i class="fa-brands fa-facebook-f fa-stack-1x"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="fa-stack fa-4x icon-size">
+                                <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                                <i class="fa-brands fa-instagram fa-stack-1x"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-4 my-3">
+                <div class="subscribe">
+                    <h3 class="mb-5">NewsLetter</h3>
+                    <p>Stay up to date with our latest news and products</p>
+                    <form>
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Your E-mail ">
+                            <button class="btn btn-outline-secondary" type="button">Subscribe</button>
+                        </div>
+                    </form>
+                    <p class="gray-v1">Your email is safe with us, we don’t spam</p>
+                </div>
+            </div>
+            <div class="copyright">© Copyright 2022</div>
+        </div>
+    </div>
+</footer>
+
+<!-- Modal catalog -->
+<div class="modal fade" id="catalogModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content catalog-bg">
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row mt-4">
+                        <div class="col-12">
+                            <a href=""><img src="img/Logo2.png" alt="Logo"></a>
+                            <i class="fa-solid fa-xmark float-end btn-close-v1" data-bs-dismiss="modal"></i>
+                        </div>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mt-5">
+                        <div class="col pb-4">
+                            <div class="card">
+                                <div class="card-link">
+                                    <div class="card-body p-0 p-md-4 text-center">
+                                        <div class="img-wrapper">
+                                            <img src="img/main-img-1.jpg" alt="">
+                                        </div>
+                                        <h5 class="card-title my-5">MÓDULOS FOTOVOLTAICOS</h5>
+                                        <hr class="orange mx-auto">
+                                        <div class="card-text">
+                                            <a href="" class="efv-btn btn-v4 my-4">Saber más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col pb-4">
+                            <div class="card">
+                                <div class="card-link">
+                                    <div class="card-body p-0 p-md-4 text-center">
+                                        <div class="img-wrapper">
+                                            <img src="img/main-img-1.jpg" alt="">
+                                        </div>
+                                        <h5 class="card-title my-5">MÓDULOS FOTOVOLTAICOS</h5>
+                                        <hr class="orange mx-auto">
+                                        <div class="card-text">
+                                            <a href="" class="efv-btn btn-v4 my-4">Saber más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col pb-4">
+                            <div class="card">
+                                <div class="card-link">
+                                    <div class="card-body p-0 p-md-4 text-center">
+                                        <div class="img-wrapper">
+                                            <img src="img/main-img-1.jpg" alt="">
+                                        </div>
+                                        <h5 class="card-title my-5">MÓDULOS FOTOVOLTAICOS</h5>
+                                        <hr class="orange mx-auto">
+                                        <div class="card-text">
+                                            <a href="" class="efv-btn btn-v4 my-4">Saber más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col pb-4">
+                            <div class="card">
+                                <div class="card-link">
+                                    <div class="card-body p-0 p-md-4 text-center">
+                                        <div class="img-wrapper">
+                                            <img src="img/main-img-1.jpg" alt="">
+                                        </div>
+                                        <h5 class="card-title my-5">MÓDULOS FOTOVOLTAICOS</h5>
+                                        <hr class="orange mx-auto">
+                                        <div class="card-text">
+                                            <a href="" class="efv-btn btn-v4 my-4">Saber más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col pb-4">
+                            <div class="card">
+                                <div class="card-link">
+                                    <div class="card-body p-0 p-md-4 text-center">
+                                        <div class="img-wrapper">
+                                            <img src="img/main-img-1.jpg" alt="">
+                                        </div>
+                                        <h5 class="card-title my-5">MÓDULOS FOTOVOLTAICOS</h5>
+                                        <hr class="orange mx-auto">
+                                        <div class="card-text">
+                                            <a href="" class="efv-btn btn-v4 my-4">Saber más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col pb-4">
+                            <div class="card">
+                                <div class="card-link">
+                                    <div class="card-body p-0 p-md-4 text-center">
+                                        <div class="img-wrapper">
+                                            <img src="img/main-img-1.jpg" alt="">
+                                        </div>
+                                        <h5 class="card-title my-5">MÓDULOS FOTOVOLTAICOS</h5>
+                                        <hr class="orange mx-auto">
+                                        <div class="card-text">
+                                            <a href="" class="efv-btn btn-v4 my-4">Saber más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal search -->
+<div class="modal fade" id="searchModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content catalog-bg">
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row mt-4">
+                        <div class="col-12">
+                            <a href=""><img src="img/Logo2.png" alt="Logo"></a>
+                            <i class="fa-solid fa-xmark float-end btn-close-v1" data-bs-dismiss="modal"></i>
+                        </div>
+                    </div>
+                    <div class="row d-flex align-items-center">
+                        <form class="input-group my-5">
+                            <input type="text" class="form-control" placeholder="Consulta de busqueda" aria-describedby="btnSearch">
+                            <button class="btn btn-outline-secondary" type="button" id="btnSearch">Encontrar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Menu mobile -->
+<div class="mobile-menu-style">
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasLeft" aria-labelledby="offcanvasLeftLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasLeftLabel">Menu</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="accordion" id="accordionRight">
+                <a href="" class="single">Inicio</a>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRight1" aria-expanded="false" aria-controls="collapseRight1">
+                            Nosotros
+                        </button>
+                    </h2>
+                    <div id="collapseRight1" class="accordion-collapse collapse" aria-labelledby="collapseRight1" data-bs-parent="#accordionRight">
+                        <div class="accordion-body">
+                            <ul>
+                                <li class="item">
+                                    <a href="">¿Quiénes somos?</a>
+                                </li>
+                                <li class="item">
+                                    <a href="">Nuestro equipo</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <a href="" class="single">Products</a>
+                <a href="" class="single">Blog</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+<script type="text/javascript" src="script.js" ></script>
+</body>
+</html>
