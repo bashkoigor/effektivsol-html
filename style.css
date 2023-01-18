@@ -158,7 +158,9 @@ footer a:hover, .social a:hover {color: #F47820;}
 footer .subscribe {background: #1a1b1e; padding: 20px; border-radius: 10px;}
 footer .copyright {font-size: 12px; text-align: center; color: gray; padding: 10px;}
 footer .btn-outline-secondary, #btnSearch {background: #C6143E; color: white; border: none;}
-.social a {color: white; background: black; padding: 10px; display: block; width: 45px;}
+footer .icons .icon {color: white; background: #344559; padding: 10px; display: inline-block; width: 45px;}
+footer .social a {color: white; background: #344559; padding: 10px; display: inline-block; width: 45px;}
+.our-team .social a {color: white; background: black; padding: 10px; display: block; width: 45px;}
 .list-inline li {display: inline-block;}
 hr.orange {border: 1px solid #F47820; width: 25%; opacity: 1;}
 .main p {font-size: 20px;}
